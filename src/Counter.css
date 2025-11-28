@@ -1,0 +1,68 @@
+/* Full page center */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+}
+
+/* Main container - FIXED */
+.counter-wrapper {
+  height: 100vh; /* <--- IMPORTANT: perfect full-screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* UI box */
+.counter-box {
+  width: 320px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Counter number */
+.counter-value {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+/* Button Grid */
+.button-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 0;
+  border-radius: 12px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* Specific Button Colors */
+.btn-red {
+  background: #e63946;
+}
+
+.btn-gray {
+  background: #6c757d;
+}
+
+.btn-green {
+  background: #2a9d8f;
+}
