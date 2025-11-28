@@ -11,7 +11,7 @@ export default function CounterUI() {
   return (
     <div className="counter-wrapper">
       <div className="counter-box">
-        <title>Ax</title>
+        <title>Ax-Counter</title>
         <h1 className="text-title">Counter</h1>
 
         <div className="counter-value">{count}</div>
